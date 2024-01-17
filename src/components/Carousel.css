@@ -1,1 +1,42 @@
 /* write your carousel css in this file */
+.container{
+    width: 80%;
+    height: 650px;
+    background-color: black;
+}
+
+h1{
+    font-size: 4.5rem;
+}
+h2{
+    font-size: 1.5rem;
+}
+h1, h2{
+    background-color: white;
+    opacity: 90%;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.carousel{
+    height: 100%;
+    background-position: center;
+    display: flex;
+    background-size: cover;
+}
+.carousel .leftButton, .carousel .rightButton{
+    height: 100%;
+    width: 70px;
+    color: white;
+    background-color: black;
+    display: grid;
+    place-items: center;
+}
+.carousel .text{
+    flex: 100%;
+    height: 100%;
+    display: grid;
+    place-items: center;
+    text-align: justify;
+    text-align-last: center;
+}
